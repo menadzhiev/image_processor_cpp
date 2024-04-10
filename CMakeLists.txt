@@ -1,0 +1,12 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+        Image.cpp
+        Image.h
+        RGB.h
+        RGB.cpp
+        open_save.h
+        open_save.cpp
+        Filters.h
+        Filters.cpp
+)
